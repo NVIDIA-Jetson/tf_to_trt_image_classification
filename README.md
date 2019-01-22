@@ -70,14 +70,14 @@ for implementation details.
             sudo pip install tensorflow-1.5.0rc0-cp27-cp27mu-linux_aarch64.whl
 
 4. Install uff exporter on Jetson TX2.
-   1. Download TensorRT 3.0.4 for Ubuntu 16.04 and CUDA 9.0 tar package from https://developer.nvidia.com/nvidia-tensorrt-download.
+   1. Download TensorRT 5.0.2 for Ubuntu 16.04 and CUDA 9.0 tar package from https://developer.nvidia.com/nvidia-tensorrt-download.
    2. Extract archive 
 
-            tar -xzf TensorRT-3.0.4.Ubuntu-16.04.3.x86_64.cuda-9.0.cudnn7.0.tar.gz
+            tar -xzf TensorRT-5.0.2.6.Ubuntu-16.04.4.x86_64-gnu.cuda-9.0.cudnn7.3.tar.gz
 
    3. Install uff python package using pip 
 
-            sudo pip install TensorRT-3.0.4/uff/uff-0.2.0-py2.py3-none-any.whl
+            sudo pip install TensorRT-5.0.2.6/uff/uff-0.5.5-py2.py3-none-any.whl
 
 5. Clone and build this project
 
